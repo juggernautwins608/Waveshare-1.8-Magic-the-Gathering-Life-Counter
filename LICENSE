@@ -19,14 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-This repository also bundles third-party libraries under ./libraries, each
-retaining its own license:
-  - GFX Library for Arduino (Arduino_GFX) — BSD 3-Clause, (c) Adafruit
-    Industries and moononournation. A patched copy: the ST77916 init table has
-    been replaced with the JC3636W518 "V2" panel init sequence required by this
-    display. See libraries/GFX_Library_for_Arduino/license.txt.
-LVGL (8.3.6, MIT) is NOT bundled — install it separately (see README) and use
-the provided lv_conf.h.
